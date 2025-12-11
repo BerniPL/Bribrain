@@ -26,5 +26,6 @@ for script in "$download_test_dir"/*.sh; do
   if [ -f "$script" ]; then
     echo "Running $script..."
     bash "$script" "$os"
+
   fi
 done
